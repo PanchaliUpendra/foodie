@@ -397,7 +397,8 @@
 
 .most-popular-items-con-div2{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,27%);
+    justify-content: center;
     margin-left: 6%;
     margin-right: 6%;
     grid-template-rows:330px 330px;
