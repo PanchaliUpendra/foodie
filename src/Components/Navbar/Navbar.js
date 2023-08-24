@@ -17,7 +17,9 @@ function Navbar(){
                 <NavLink to='/about'><li>About</li></NavLink>
                 <NavLink to='/contactus'><li>ContactUs</li></NavLink>
                 <NavLink to='/products'><li>Products</li></NavLink>
-                <li>AddToCart</li>
+                
+                <NavLink to='/addcart'><li>AddToCart</li></NavLink>
+
             </ul>
             <AccountCircleIcon fontSize="large" sx={{color: orange[500]}} className='profile-appear' onClick={()=>navigate('/login')}/>
       

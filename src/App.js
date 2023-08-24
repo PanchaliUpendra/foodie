@@ -9,6 +9,7 @@ import Contactus from './Components/Contactus/Contactus';
 import About from './Components/About/About';
 import Login from './Components/Login/Login';
 import Products from './Components/Products/Products';
+import Addcart from './Components/Addcart/Addcart';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/products' element={<Products/>}/>
+            <Route path='/addcart' element={<Addcart/>}/>
           </Routes>
           
         </div>
