@@ -14,9 +14,9 @@
 
 
 .addcart-con-each-cart5{
-    background-color: rgb(215, 228, 244);
+    background-color: white;
     width: 100%;
-    border: 1px solid rgb(126, 173, 235);
+    border: 1px solid orange;
     display: flex;
     flex-direction: row;
     padding-top: 5px;

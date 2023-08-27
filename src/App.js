@@ -10,7 +10,7 @@ import About from './Components/About/About';
 import Login from './Components/Login/Login';
 import Products from './Components/Products/Products';
 import Addcart from './Components/Addcart/Addcart';
-
+import Addproducts from './Components/Addproduct/Addproduct';
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +23,7 @@ function App() {
             <Route path='/login' element={<Login/>}/>
             <Route path='/products' element={<Products/>}/>
             <Route path='/addcart' element={<Addcart/>}/>
+            <Route path='/addproducts' element={<Addproducts/>}/>
           </Routes>
           
         </div>
